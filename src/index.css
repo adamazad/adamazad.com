@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik&display=swap');
 
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	font-family: 'Karla', sans-serif;
 }
