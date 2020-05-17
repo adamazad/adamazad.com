@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
-    height: 100vh;
 	width: 100%;
     max-width: 700px;
     margin: 0 auto;
@@ -11,13 +10,20 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    align-items: center;
+	align-items: center;
+	
+	@media (min-width: 768px) {
+		height: 100vh;
+	}
 `
 
 const Card = styled.div`
     padding: 15px;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
 	width:100%;
+
+	@media (min-width: 768px) {
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+	}
 `
 
 const Link = styled.a`
