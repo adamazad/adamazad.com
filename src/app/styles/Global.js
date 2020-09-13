@@ -87,13 +87,13 @@ const GlobalStyle = createGlobalStyle`
     @media (min-width: ${Theme.breakpoints[0]}) {
       & {
         font-size: ${Theme.fontSizes[1]}px; /* fallback for browsers that do not support calc */
-        font-size: calc(1.2vw + ${Theme.fontSizes[0]}px);
+        font-size: calc(.4vw + ${Theme.fontSizes[0]}px);
       }
     }
     @media (min-width: ${Theme.breakpoints[1]}) {
       & {
         font-size: ${Theme.fontSizes[1]}px; /* fallback for browsers that do not support calc */
-        font-size: calc(.6vw + ${Theme.fontSizes[0]}px);
+        font-size: calc(.2vw + ${Theme.fontSizes[0]}px);
       }
     }
 
