@@ -3,15 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rebass/preset": "^4.0.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
+    "markdown-to-jsx": "^7.0.0",
+    "moment": "^2.27.0",
+    "prettier": "^2.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
-    "react-normalize": "^0.4.4",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.0"
+    "react-smooth-scrollbar": "^8.0.6",
+    "rebass": "^4.0.7",
+    "smooth-scrollbar": "^8.5.2",
+    "styled-components": "^5.1.0",
+    "styled-reboot": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,7 +46,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.7.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
