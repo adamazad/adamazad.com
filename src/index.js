@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Normalize from 'react-normalize';
-import './index.css';
-import App from './App';
+import Scrollbar from 'react-smooth-scrollbar';
+import { ThemeProvider } from 'styled-components';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import App from './app/App';
+import GlobalStyle from './app/styles/Global';
+import Theme from './app/styles/Theme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Normalize />
-    <App />
+    <ThemeProvider theme={Theme}>
+      <GlobalStyle />
+      <Scrollbar>
+        <Router>
+          <App />
+        </Router>
+      </Scrollbar>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
