@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/seo';
 import Header from '../components/Header';
 import Container from '../styles/Container';
 import HeaderWithContent from '../layouts/HeaderContent';
@@ -6,11 +7,12 @@ import HeaderWithContent from '../layouts/HeaderContent';
 function Home() {
   return (
     <HeaderWithContent>
+      <SEO title="Home" />
       <HeaderWithContent.Header>
         <Header />
       </HeaderWithContent.Header>
       <HeaderWithContent.Content>
-        <Container fluid>
+        <Container fluid width="100%">
           <h1>Adam Azad</h1>
           <h3>Full Stack Engineer, Leader, Speaker, & More</h3>
           <p>Adam is a Full Stack Engineer and Digital Entrepurenr.</p>

@@ -6,6 +6,7 @@ import Container from '../styles/Container';
 import Gridume from '../components/Gridume';
 import Section from '../components/Gridume/Section';
 import HeaderWithContent from '../layouts/HeaderContent';
+import SEO from '../components/seo';
 
 const Grid = Styled.div`
   display: grid;
@@ -34,7 +35,7 @@ function Resume() {
 
   const [header, setHeader] = useState({
     name: 'Adam Azad',
-    lastUpdated: Moment().format('YYYY-M-D'),
+    lastUpdated: Moment().format("YYYY-MM-DD"),
     contact: "[you@hey.com](mailto:me@hey.com) | [me.dev](https://me.dev)"
   });
 
@@ -67,6 +68,7 @@ function Resume() {
 
   return (
     <HeaderWithContent>
+      <SEO title="Resume" />
       <HeaderWithContent.Header>
         <Header />
       </HeaderWithContent.Header>

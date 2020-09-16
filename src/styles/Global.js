@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { reboot } from 'styled-reboot';
 import Theme from './Theme';
-import './fonts.css'
 
 const GlobalStyle = createGlobalStyle`
 
@@ -9,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
 
   html,
   body,
-  #root {
+  #___gatsby {
     height: 100%;
     width: 100%;
     position: absolute;

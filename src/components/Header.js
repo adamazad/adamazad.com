@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'gatsby';
 import Styled from 'styled-components';
 import Container from '../styles/Container';
 
-const HeaderNavLink = Styled(NavLink)`
+const HeaderNavLink = Styled(Link)`
   font-size: 18px;
 `;
 
@@ -28,7 +28,7 @@ function Header() {
     <Container>
       <HeaderInner>
         <NavLinkList>
-          <HeaderNavLink to="/about">About</HeaderNavLink>
+          <HeaderNavLink to="/">Home</HeaderNavLink>
           <HeaderNavLink to="/work">Work</HeaderNavLink>
           <HeaderNavLink to="/talks">Talks</HeaderNavLink>
           <HeaderNavLink to="/resume">Resume</HeaderNavLink>

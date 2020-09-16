@@ -1,8 +1,11 @@
 import React from 'react';
-import { HeaderWithContent } from '../layouts';
-import Header from '../components/Header';
 import { Box, Link } from 'rebass';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
+
+import SEO from '../components/seo';
+import Header from '../components/Header';
 import Container from '../styles/Container';
+import { HeaderWithContent } from '../layouts';
 
 function Contact() {
 
@@ -18,6 +21,10 @@ function Contact() {
       title: "GitHub",
       text: "GitHub",
       href: "https://github.com/adamazad"
+    },{
+      title: "Stack Overflow",
+      text: "Stack Overflow",
+      href: "https://stackoverflow.com/users/2151050/adam-azad"
     }, {
       title: "Instagram",
       text: "Instagram",
@@ -26,6 +33,7 @@ function Contact() {
 
   return (
     <HeaderWithContent>
+      <SEO title="Contact" />
       <HeaderWithContent.Header>
         <Header/>
       </HeaderWithContent.Header>
@@ -36,7 +44,7 @@ function Contact() {
           <p>Other places</p>
           <Box>
             <p>
-              { links.map(({ href, title, text }) => <Link mr={2} href={ href } title={ title }>{ text }</Link>) }
+              { links.map(({ href, title, text }) => <Link target="_blank" as={OutboundLink} mr={2} href={ href } title={ title }>{ text }</Link>) }
             </p>
           </Box>
         </Container>

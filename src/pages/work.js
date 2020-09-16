@@ -1,6 +1,7 @@
 import React from 'react';
 import Styled from 'styled-components';
 import { Box, Link } from 'rebass/styled-components';
+import SEO from '../components/seo';
 import Header from '../components/Header';
 import Container from '../styles/Container';
 import HeaderWithContent from '../layouts/HeaderContent';
@@ -26,6 +27,7 @@ function Work() {
 
   return (
     <HeaderWithContent>
+      <SEO title="Work" />
       <HeaderWithContent.Header>
         <Header/>
       </HeaderWithContent.Header>

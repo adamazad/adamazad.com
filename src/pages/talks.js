@@ -3,13 +3,14 @@ import { Flex, Box } from 'rebass/styled-components';
 import Styled from 'styled-components';
 import { Center, HeaderWithContent } from '../layouts';
 import Header from '../components/Header';
-import Helmet from 'react-helmet';
 import Container from '../styles/Container';
+import SEO from '../components/seo';
 
 function Talks() {
 
   return (
     <HeaderWithContent>
+      <SEO title="Talks" />
       <HeaderWithContent.Header>
         <Header/>
       </HeaderWithContent.Header>
