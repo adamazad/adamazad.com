@@ -50,7 +50,7 @@ function Work() {
           <WorkFlex>
             <Box>
               <h2>Deng PWA</h2>
-              <p>Deng (Sound in Kurdish) is a PWA for streaming music, heaviliy inspired by Spotify. It was my capstone at AUIS. A WIP version is available at <Link target="_blank" href="https://getdeng.com">getdeng.com</Link></p>
+              <p>Deng (sound in Kurdish) is a PWA for streaming music, heavily inspired by Spotify. It was my capstone at AUIS. A WIP version is available at <Link target="_blank" href="https://getdeng.com">getdeng.com</Link></p>
             </Box>
           </WorkFlex>
           <WorkFlex>
