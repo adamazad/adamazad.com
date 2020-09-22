@@ -10,9 +10,7 @@ const Date = Styled.small`
 
 function LastUpdated({ date = '' }) {
 
-  const moment = Moment.isDate(date) ? Moment(date) : Moment();
-
-  return <Date>Last updated: { moment.format('MMM D, YYYY') }</Date>;
+  return <Date>Last updated: { Moment(date).format('MMM D, YYYY') }</Date>;
 
 }
 
