@@ -20,7 +20,7 @@ function Talks() {
           <Flex minHeight={200} mx="auto" mb={10} width="100%">
             <Box width={ 1 / 2 } px={ 2 }>
               <h2>2019</h2>
-              <p>First batch of talk</p>
+              <p>First batch</p>
             </Box>
             <Box width={ 1 / 2 } px={ 2 }>
               <div>
