@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Adam Azad",
-    "lastUpdated": "2020-09-22",
+    "lastUpdated": "2020-10-7",
     "contact": "[adam@adamazad.com](mailto:adam@adamazad.com) | [aa14211@auis.edu.krd](mailto:aa14211@auis.edu.krd) | [adamazad.com](https://adamazad.com) |  | Phone Removed"
   },
   "leftColumn": {
@@ -70,6 +70,10 @@
       "Azad, Adam. Hartnell, Tobin. Dler, Mohammed, Razmahang, Yalda. and, Nouri, Alan. _AI as a means to assess ISIS campaign of destruction at the World Heritage Site of Ashur._ In Press. [Read Approved Version](https://www.chnt.at/wp-content/uploads/AI-as-a-means-to-assess-ISIS-campaign-of-destruction-at-the-World-Heritage-Site-of-Ashur.pdf)"
     ],
     "awards": [
+      {
+        "date": "2020",
+        "title": "Top 10 Runner-ups, Chainlink Hackathon 2020"
+      },
       {
         "date": "2018",
         "title": "Best Business Case of Costa Cruises, Rome Business Game"
