@@ -1,18 +1,19 @@
-import Styled from 'styled-components';
+import Styled from 'styled-components'
 
-export const Title = Styled.h3``;
+export const Title = Styled.h3``
 export const Heading5 = Styled.h5`
   font-size: 16px;
-`;
+`
 export const Heading6 = Styled.h6`
   margin-bottom: 0px;
   font-size: 14px;
-`;
+`
 
-export const Meta = Styled.small``;
-export const Description = Styled.div``;
+export const Meta = Styled.small``
+export const Description = Styled.div``
 
-export const Grid = Styled.div(props => `
+export const Grid = Styled.div(
+  props => `
   position: relative;
   max-width: 1000px;
   width: 100%;
@@ -58,27 +59,41 @@ export const Grid = Styled.div(props => `
     font-weight: 400;
     font-family: ${props.theme.fontFamilyHeading};
   }
-`);
+`
+)
 
 export const Column = Styled.div`
   display: flex;
   flex-direction: column;
-`;
+`
 
-export const Header = Styled.header`
+export const Header = Styled.header(
+  props => `
   display: flex;
   flex: 0 0 60px;
   padding-top: 10px;
   padding-bottom: 10px;
-  align-items: center;
+  border-bottom: 1px solid #000;
+  justify-content: flex-start;
+  align-items: ${props.alignItems ? props.alignItems : 'center'};
+`
+)
+
+export const HeaderMeta = Styled.header(
+  props => `
+  display: flex;
+  flex: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
   flex-direction: column;
   justify-content: center;
-  border-bottom: 1px solid #000;
-`;
+  align-items: ${props.alignItems ? props.alignItems : 'center'};
+`
+)
 
 export const Content = Styled.main`
   flex-grow: 1;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 2fr;
-`;
+`
