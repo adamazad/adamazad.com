@@ -1,15 +1,15 @@
 {
   "header": {
     "name": "Adam Azad",
-    "lastUpdated": "2020-10-7",
-    "contact": "[adam@adamazad.com](mailto:adam@adamazad.com) | [aa14211@auis.edu.krd](mailto:aa14211@auis.edu.krd) | [adamazad.com](https://adamazad.com) |  | Phone Removed"
+    "lastUpdated": "2020-11-6",
+    "contact": "[adam@adamazad.com](mailto:adam@adamazad.com) | [aa14211@auis.edu.krd](mailto:aa14211@auis.edu.krd) | [adamazad.com](https://adamazad.com) | \\<Phone Removed\\>"
   },
   "leftColumn": {
     "education": [
       {
         "organization": "American University of Iraq, Sulaimani",
-        "startDate": "Oct 2014",
-        "endDate": "Jul 2020",
+        "startDate": "Oct 26, 2014",
+        "endDate": "Jul 4, 2020",
         "location": "Sulaimani, Iraq",
         "description": "- Academic Excellence Scholarship Award\r\n- BS in Information Technology\r\n- BA in International Studies\r\n- Educated students about Blockchain"
       }
@@ -23,7 +23,17 @@
         "description": "- Designed data digitization methodology\r\n- Oversaw the data collection stage\r\n- Performed statistical analysis with IBM SPSS"
       }
     ],
-    "skills": "**Disciplines**\r\n\r\nAgile, UI/UX Design, Project Management, CI/CD, Software Development, Amazon Web Service, JAMstack\r\n\r\n**Core Technologies**\r\n\r\nGit, Typescript, JavaScript, Java, PHP, Node.js, and (No)SQL\r\n\r\n**Libraries and Frameworks**\r\n\r\nReact, Express\r\n\r\n**Familiar**\r\n\r\nSolidity"
+    "skills": "**Disciplines**\r\n\r\nAgile, UI/UX Design, Project Management, CI/CD, Software Development, Amazon Web Service, JAMstack\r\n\r\n**Core Technologies**\r\n\r\nGit, Typescript, JavaScript, Java, PHP, Node.js, and (No)SQL\r\n\r\n**Libraries and Frameworks**\r\n\r\nReact, Express\r\n\r\n**Familiar**\r\n\r\nSolidity",
+    "links": "[LinkedIn](https://linkedin.com/in/adamazad) \r\n[GitHub](https://github.com/adamazad) \r\n[Stack Overflow](https://stackoverflow.com/users/2151050/adam-azad) \r\n[Twitter](https://twitter.com/adamzazad)",
+    "volunteering": [
+      {
+        "employer": "Giovani Nel Mondo",
+        "startDate": "Aug 2019",
+        "endDate": "Present",
+        "location": "Rome, Italy",
+        "description": "- Selected to teach 360+ participants from 200+ countries the principles of IT and Digital Marketing. \r\n- Part of International Careers Festival"
+      }
+    ]
   },
   "rightColumn": {
     "experience": [
@@ -34,22 +44,6 @@
         "description": "- Have worked with web development studios and clients from Canada, Europe, South East Asia\r\n- Experience with JavaScript, Node.js, React.js, and MongoDB, MERN and JAMstack\r\n- Experience with hosted services Google Firebase\r\n- Focus on building modern Web Apps, PWAs and SaaS in the cloud - CI/CD"
       },
       {
-        "position": "Project Officer",
-        "employer": "Center for Archaeology and Cultural Heritage (CACHE)",
-        "startDate": "Jul 2017",
-        "endDate": "Present",
-        "location": "Sulaimani, Iraq",
-        "description": "- Oversee project design and logistics\r\n- Liaison between CACHE and Ministry of Culture in Baghdad"
-      },
-      {
-        "position": "Event Manager",
-        "employer": "Giovani Nel Mondo",
-        "startDate": "Aug 2019",
-        "endDate": "Present",
-        "location": "Rome, Italy",
-        "description": "- Selected as in-game IT and Digital Marketing Manager in Rome Business Game 2020\r\n- Teaching 360+ participants from 200+ countries the principles of IT and Digital Marketing"
-      },
-      {
         "position": "Full Stack Developer",
         "employer": "Webium Média",
         "startDate": "2014",
@@ -58,7 +52,15 @@
         "description": "- Worked with PHP, JavaScript (jQuery), HTML5, and CSS\r\n- Created complex custom crawlers with PHP\r\n- Built custom search engines for clients"
       },
       {
-        "position": "Founder, CEO",
+        "position": "Project Officer",
+        "employer": "Center for Archaeology and Cultural Heritage (CACHE)",
+        "startDate": "Jul 2017",
+        "endDate": "Present",
+        "location": "Sulaimani, Iraq",
+        "description": "- Oversee project design and logistics\r\n- Liaison between CACHE and Ministry of Culture in Baghdad"
+      },
+      {
+        "position": "Founder",
         "employer": "W3 /wiː/",
         "startDate": "2011",
         "endDate": "2013",
@@ -81,6 +83,16 @@
       {
         "date": "2018",
         "title": "Dean's List"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Savelist (SaaS)",
+        "description": "- [Savelist](https://savelist.io) is a SaaS that protects Spotify playlists against bot reports."
+      },
+      {
+        "title": "BildX (Open Source)",
+        "description": "- [BildX](https://github.com/adamazad/bildx) is self-hosted version of imgix built on top of Express."
       }
     ]
   }
