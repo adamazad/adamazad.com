@@ -46,7 +46,8 @@ function Work() {
                 <Link target="_blank" title="JoyFeed" href="https://joyfeed.co">
                   JoyFeed
                 </Link>{' '}
-                is a SaaS platform for artists to monetize their social media channels.
+                is a SaaS platform for artists to monetize their social media channels. It is world's smartest marketing
+                tool for emegring artists on Spotify and SoundCloud.
               </p>
             </Box>
           </WorkFlex>
