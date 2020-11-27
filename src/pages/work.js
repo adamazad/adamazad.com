@@ -114,6 +114,25 @@ function Work() {
               </p>
             </Box>
           </WorkFlex>
+          <WorkFlex>
+            <Box>
+              <h2>Trådor</h2>
+              <p>
+                An anonymous messageboard. You can see it{' '}
+                <Link target="_blank" href="https://trador.netlify.app/">
+                  here
+                </Link>{' '}
+                Contribute on GitHub
+                <Link target="_blank" href="https://github.com/adamazad/trador-web">
+                  trador-web
+                </Link>{' '}
+                and
+                <Link target="_blank" href="https://github.com/adamazad/trador-data">
+                  trador-data
+                </Link>
+              </p>
+            </Box>
+          </WorkFlex>
         </Container>
       </HeaderWithContent.Content>
     </HeaderWithContent>
