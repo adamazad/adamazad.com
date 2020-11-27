@@ -122,11 +122,11 @@ function Work() {
                 <Link target="_blank" href="https://trador.netlify.app/">
                   here
                 </Link>{' '}
-                Contribute on GitHub
+                Contribute on GitHub{' '}
                 <Link target="_blank" href="https://github.com/adamazad/trador-web">
                   trador-web
                 </Link>{' '}
-                and
+                and{' '}
                 <Link target="_blank" href="https://github.com/adamazad/trador-data">
                   trador-data
                 </Link>
