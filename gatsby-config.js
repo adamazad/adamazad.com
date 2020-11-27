@@ -3,7 +3,8 @@ module.exports = {
     title: `Adam Azad`,
     siteUrl: `https://adamazad.com`,
     description: `Homepage of Sulaimani-based leader, speaker, and web developer Adam Azad.`,
-    author: `Adam Azad`,
+    keywords: `software engineer,blockchain,ethereum,bitcoin,decentralized finance,defi,full stack engineer,full stack developer,react,typescript,javascript,node.js`,
+    author: `@adamzazad`,
   },
   plugins: [
     {
@@ -12,7 +13,7 @@ module.exports = {
         trackingId: `UA-63644580-1`,
         head: false,
         anonymize: true,
-      }
+      },
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
@@ -28,6 +29,6 @@ module.exports = {
         ],
         display: 'swap',
       },
-    }
+    },
   ],
 }
