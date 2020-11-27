@@ -43,7 +43,7 @@ function Work() {
             <Box>
               <h2>JoyFeed</h2>
               <p>
-                <Link target="_blank" title="explore.krd" href="https://joyfeed.co">
+                <Link target="_blank" title="JoyFeed" href="https://joyfeed.co">
                   JoyFeed
                 </Link>{' '}
                 is a SaaS platform for artists to monetize their social media channels.
@@ -54,7 +54,7 @@ function Work() {
             <Box>
               <h2>Savelist</h2>
               <p>
-                <Link target="_blank" title="explore.krd" href="https://savelist.io">
+                <Link target="_blank" title="Savelist" href="https://savelist.io">
                   Savelist
                 </Link>{' '}
                 is a SaaS to protect Spotify playlists from report bots. It is only $10 a month, and we offer a 5 days
